@@ -179,7 +179,7 @@ class _LogWidgetState extends State<LogWidget> {
       case _Type.error:
         return Colors.red;
       default:
-        return Theme.of(context).textTheme.bodyText1!.color;
+        return Colors.green;
     }
   }
 
